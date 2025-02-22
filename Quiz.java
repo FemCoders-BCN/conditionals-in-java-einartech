@@ -9,10 +9,10 @@ public class Quiz {
 
         // Pregunta 1
         System.out.println("1. ¿Quién fue la hacker que escribió en 1994 Hacking the Wetware?");
-        System.out.println("a. Ada Lovelace");
-        System.out.println("b. Jude Milhon");
-        System.out.println("c. Martha Ackelsberg");
-        System.out.println("d. Jane Jacobs");
+        System.out.println("\ta. Ada Lovelace");
+        System.out.println("\tb. Jude Milhon");
+        System.out.println("\tc. Martha Ackelsberg");
+        System.out.println("\td. Jane Jacobs");
         if (scanner.nextLine().equalsIgnoreCase("b")) {
             score += 5;
             System.out.println("¡Correcto! ¡Has acertado la primera pregunta!");
@@ -22,10 +22,10 @@ public class Quiz {
 
         // Pregunta 2
         System.out.println("2. ¿Quién es Fuencisla Clemares?");
-        System.out.println("a. La directora general de IBM Europa, Oriente Medio y África");
-        System.out.println("b. La vicepresidenta de Microsoft Western Europe");
-        System.out.println("c. La directora general de Google en España y Portugal");
-        System.out.println("d. Fundadora y CEO de Marsi Bionics");
+        System.out.println("\ta. La directora general de IBM Europa, Oriente Medio y África");
+        System.out.println("\tb. La vicepresidenta de Microsoft Western Europe");
+        System.out.println("\tc. La directora general de Google en España y Portugal");
+        System.out.println("\td. Fundadora y CEO de Marsi Bionics");
         if (scanner.nextLine().equalsIgnoreCase("c")) {
             score += 5;
             System.out.println("¡Correcto! ¡Has acertado la segunda pregunta!");
@@ -35,11 +35,11 @@ public class Quiz {
 
         // Pregunta 3
         System.out.println("3. ¿Quién fue Hedwig Eva Maria Kiesler, conocida como Hedy Lamarr?");
-        System.out.println("a. Primera programadora de software");
-        System.out.println("b. Una actriz de cine");
-        System.out.println("c. Inventora del procesador de datos");
+        System.out.println("\ta. Primera programadora de software");
+        System.out.println("\tb. Una actriz de cine");
+        System.out.println("\tc. Inventora del procesador de datos");
         System.out.println(
-                "d. Inventora del sistema de comunicaciones de salto de frecuencia, base del wifi, bluetooth y GPS");
+                "\td. Inventora del sistema de comunicaciones de salto de frecuencia, base del wifi, bluetooth y GPS");
         System.out.println("Ejemplo de respuesta múltiple: ({x} y {z}) o ({z} y {x})");
         String respuesta3 = scanner.nextLine();
         if (respuesta3.equalsIgnoreCase("b y d") || respuesta3.equalsIgnoreCase("d y b")) {
@@ -52,10 +52,10 @@ public class Quiz {
         // Pregunta 4
         System.out.println(
                 "4. ¿Cómo se llamaban las principales 'mujeres ocultas' de la NASA, encargadas de los cálculos para que la misión del Apolo 11 concluyera con éxito?");
-        System.out.println("a. Katherine Johnson, Dorothy Vaughan y Mary Jackson");
-        System.out.println("b. Jessica Miller, Emily Johnson, Sarah Davis");
-        System.out.println("c. bell hooks, Toni Morrison y Alice Walker");
-        System.out.println("d. Emmeline Pankhurst, Millicent Fawcett y Harriet Harman");
+        System.out.println("\ta. Katherine Johnson, Dorothy Vaughan y Mary Jackson");
+        System.out.println("\tb. Jessica Miller, Emily Johnson, Sarah Davis");
+        System.out.println("\tc. bell hooks, Toni Morrison y Alice Walker");
+        System.out.println("\td. Emmeline Pankhurst, Millicent Fawcett y Harriet Harman");
         if (scanner.nextLine().equalsIgnoreCase("a")) {
             score += 5;
             System.out.println("¡Correcto! ¡Has acertado la cuarta pregunta!");
